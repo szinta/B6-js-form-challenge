@@ -1,0 +1,86 @@
+/* YOUR CSS HERE */
+
+
+/* DO NOT MODIFY BELOW THIS LINE */
+
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font: 1rem/1.618rem '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium',
+      YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ',
+      Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  }
+
+  /* Heading */
+  h1,
+  h2,
+  h3 {
+    line-height: 1.618em;
+    margin: 1.618em 0;
+  }
+  h1:first-child,
+  h2:first-child,
+  h3:first-child {
+    margin-top: 0;
+  }
+  h1:last-child,
+  h2:last-child,
+  h3:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Sectioning */
+  section,
+  article,
+  aside,
+  nav {
+    padding: 1.618rem;
+  }
+
+  /* main */
+  main {
+    display: flex;
+  }
+  main article {
+    width: 70%;
+  }
+  main aside {
+    width: 30%;
+  }
+  /* body header */
+  header nav ul {
+    margin: -1.618rem;
+    list-style: none;
+    display: flex;
+  }
+  header nav ul li {
+    width: 100%;
+    text-align: center;
+    padding: 1.618rem 0;
+  }
+  /* aside list */
+  aside ul li {
+    padding: 1.618rem 0;
+  }
+
+  /* footer */
+  footer {
+    text-align: center;
+  }
+
+  h1,
+  p {
+    font-family: Lato;
+  }
+
+  table,
+  tr,
+  td,
+  th {
+    border: 1px solid black;
+  }
